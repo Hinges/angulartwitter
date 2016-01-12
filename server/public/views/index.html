@@ -1,0 +1,21 @@
+<!DOCTYPE html >
+<html lang="en" ng-app="builtInApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Built-In Directives</title>
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="assets/scripts/client.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+</head>
+<body ng-controller="MainController">
+
+    <div class="handler">
+        <h1>Random Twitter Name</h1>
+        <button ng-click="pickName()">Choose a Name</button>
+        <a ng-href="{{data.myLink}}"><p>{{adjective}}  {{nouns}}</p></a>
+        <!--<a ng-href="{{data.myLink}}"><p>{{adjective}}  {{nouns}}</p></a>-->
+
+    </div>
+
+</body>
+</html>
